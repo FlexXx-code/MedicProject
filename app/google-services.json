@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39807252432",
+    "project_id": "medicproject-e8280",
+    "storage_bucket": "medicproject-e8280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39807252432:android:e2b626c31dcbb297deabd5",
+        "android_client_info": {
+          "package_name": "com.example.medicproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39807252432-dtb0q00hf9ap65glcfth9f9d8rp7cu96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB5JudxdeU8wvpgMcfpUpoN-Rm8iG3GDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39807252432-dtb0q00hf9ap65glcfth9f9d8rp7cu96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

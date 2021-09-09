@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MedicProject</string>
+    <string name="welcome">Welcome!</string>
 </resources>
