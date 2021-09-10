@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MedicProject">
-        <activity android:name=".SignIn_Activity"></activity>
+        <activity android:name=".Calander"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignIn_Activity" />
         <activity android:name=".Sign_Up_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
