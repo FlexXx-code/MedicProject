@@ -19,17 +19,17 @@
     <string name="calendar">Calendar</string>
     <string name="contact_admin">Contact admin</string>
     <string name="sign_out">Sign out</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
     <string name="find_dr">Find Dr.</string>
     <string name="chat">Chat</string>
     <string name="dr_near_me">Dr Near Me</string>
     <string name="profile">Profile</string>
+    <string name="todo3">TODO</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="enter_email">Enter Email</string>
+    <string name="Enter_email">Enter Email</string>
     <string name="register">Register</string>
     <string name="enter_number">Enter Number</string>
-    <string name="enter_password">Enter Password</string>
+    <string name="Enter_password">Enter Password</string>
     <string name="name_and_surname">Name and Surname</string>
 </resources>
