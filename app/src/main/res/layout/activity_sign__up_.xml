@@ -14,10 +14,11 @@
         android:layout_marginTop="33dp"
 
         android:ems="10"
-        android:hint="Enter Email"
+        android:hint="@string/enter_email"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -25,10 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:ems="10"
-        android:hint="Enter Password"
+        android:hint="@string/enter_password"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -36,18 +38,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="214dp"
         android:ems="10"
-        android:hint="Name and Surname"
+        android:hint="@string/name_and_surname"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="Register"
+        android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
@@ -58,8 +61,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Enter Number"
+        android:hint="@string/enter_number"
         android:inputType="phone"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        android:autofillHints="" />
 </androidx.constraintlayout.widget.ConstraintLayout>

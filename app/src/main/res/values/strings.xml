@@ -1,4 +1,35 @@
 <resources>
     <string name="app_name">MedicProject</string>
     <string name="welcome">Welcome!</string>
+    <string name="got_an_acc">Got an acc?</string>
+    <string name="new_user">New user?</string>
+    <string name="book_your_appointment_with_us_today">Book your appointment with us TODAY!</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="log_in">Log in</string>
+    <string name="find_doctor">Find Doctor</string>
+    <string name="description_optional">Description (OPTIONAL)</string>
+    <string name="save">SAVE</string>
+    <string name="schedule_appointment">Schedule Appointment</string>
+    <string name="name_your_appointment">Name Your Appointment</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="click_here">Click HERE</string>
+    <string name="calendar">Calendar</string>
+    <string name="contact_admin">Contact admin</string>
+    <string name="sign_out">Sign out</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="find_dr">Find Dr.</string>
+    <string name="chat">Chat</string>
+    <string name="dr_near_me">Dr Near Me</string>
+    <string name="profile">Profile</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register">Register</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="name_and_surname">Name and Surname</string>
 </resources>

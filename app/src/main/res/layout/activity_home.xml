@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_margin="12dp"
-        android:text="Find Dr."
+        android:text="@string/find_dr"
         android:textColor="#fff"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -50,13 +50,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/home"
-                    android:contentDescription="" />
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/profileEdit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Profile"
+                    android:text="@string/profile"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -87,13 +87,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/find"
-                    android:contentDescription="" />
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/findDRbrowser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dr Near Me"
+                    android:text="@string/dr_near_me"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -129,7 +129,7 @@
                     android:id="@+id/messages"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chat"
+                    android:text="@string/chat"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -165,7 +165,7 @@
                     android:id="@+id/appointment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Calendar"
+                    android:text="@string/calendar"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -194,13 +194,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/info"
-                    android:contentDescription="" />
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/contactAdmin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contact admin"
+                    android:text="@string/contact_admin"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -229,13 +229,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/power"
-                    android:contentDescription="" />
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/signOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sign out"
+                    android:text="@string/sign_out"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>

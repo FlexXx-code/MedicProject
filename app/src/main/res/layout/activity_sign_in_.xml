@@ -13,11 +13,12 @@
         android:layout_height="42dp"
         android:layout_marginTop="236dp"
         android:ems="10"
-        android:hint="Enter Email"
+        android:hint="@string/enter_email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -26,10 +27,11 @@
         android:layout_marginStart="89dp"
         android:layout_marginBottom="60dp"
         android:ems="10"
-        android:hint="Enter Password"
+        android:hint="@string/enter_password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button4"
@@ -37,7 +39,7 @@
         android:layout_height="42dp"
         android:layout_marginTop="226dp"
         android:layout_marginBottom="227dp"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="55dp"
-        android:text="Forgot Password? "
+        android:text="@string/forgot_password"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="@+id/button4" />
 
@@ -58,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginTop="37dp"
-        android:text="Click HERE"
+        android:text="@string/click_here"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
