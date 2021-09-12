@@ -15,5 +15,7 @@ class Sign_Up_Activity : AppCompatActivity() {
         var registerMail = findViewById<TextView>(R.id.registerMail)
         var registerPassword = findViewById<TextView>(R.id.registerPassword)
 
+
+
     }
     }

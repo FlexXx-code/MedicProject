@@ -1,5 +1,6 @@
 package com.example.medicproject
 
+import SignIn_Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         val SignUpbutton = findViewById<Button>(R.id.signUp_btn)
         val Logbutton = findViewById<Button>(R.id.loginBtn)
+
+      val intent = Intent(this , SignIn_Activity::class.java)
+        startActivity(intent)
+
+
     }
 
 }
