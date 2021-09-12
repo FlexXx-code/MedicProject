@@ -1,3 +1,5 @@
+package com.example.medicproject
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -14,6 +16,8 @@ class Sign_Up_Activity : AppCompatActivity() {
         var names = findViewById<TextView>(R.id.Details)
         var registerMail = findViewById<TextView>(R.id.registerMail)
         var registerPassword = findViewById<TextView>(R.id.registerPassword)
+
+
 
 
 

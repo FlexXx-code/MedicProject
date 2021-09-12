@@ -1,3 +1,5 @@
+package com.example.medicproject
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -13,6 +15,8 @@ class SignIn_Activity : AppCompatActivity() {
         var mail = findViewById<TextView>(R.id.emailSignIn)
         var password = findViewById<TextView>(R.id.passwordSignIn)
         var forgot = findViewById<TextView>(R.id.clickHere)
+
+
 
     }
 }
