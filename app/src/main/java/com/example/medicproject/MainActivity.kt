@@ -14,9 +14,6 @@ class MainActivity : AppCompatActivity() {
         val SignUpbutton = findViewById<Button>(R.id.signUp_btn)
         val Logbutton = findViewById<Button>(R.id.loginBtn)
 
-      val intent = Intent(this , Sign_Up_Activity::class.java)
-        startActivity(intent)
-
 
     }
 
